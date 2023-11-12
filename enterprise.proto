@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+message Enterprise
+{
+	required int32 foundationYear = 1;
+	required string legalAddress = 2;
+	required string name = 3;
+
+	optional string industry = 4;
+	optional bool internationalBusiness = 5;
+}
